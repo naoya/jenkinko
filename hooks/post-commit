@@ -1,0 +1,3 @@
+#!/bin/sh
+
+wget -q "http://localhost:8080/job/jenkinko/build?delay=0"

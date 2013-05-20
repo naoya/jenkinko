@@ -6,7 +6,7 @@ has 'age'  => ( is => 'rw', isa => 'Int');
 
 sub hello {
     my $self = shift;
-    sprintf "My name is %s and %d years old.", $self->name, $self->age;
+    sprintf "My name is %s and %d years old", $self->name, $self->age;
 }
 
 __PACKAGE__->meta->make_immutable;

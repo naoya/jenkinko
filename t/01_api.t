@@ -11,6 +11,6 @@ isa_ok $j, 'Jenkinko';
 
 is $j->age, 14;
 
-is $j->hello, 'My name is jenkinko and 14 years old.';
+is $j->hello, 'My name is jenkinko and 14 years old';
 
 done_testing;
